@@ -4,7 +4,7 @@
 ![Plataforma](https://img.shields.io/badge/plataforma-m%C3%B3vil-blue)
 ![Documentaci%C3%B3n](https://img.shields.io/badge/documentaci%C3%B3n-espa%C3%B1ol-lightgrey)
 
-**Plataforma móvil que hace visible y verificable la capacidad de trabajo de las personas, y conecta a trabajadores, contratistas y contratantes.**
+**Plataforma móvil que permite demostrar capacidades laborales, respaldar experiencias y conectar a las personas con oportunidades de empleo y contratación.**
 
 > *El trabajador no tiene que demostrar que tuvo un empleo formal; tiene que poder demostrar que sabe trabajar.*
 
@@ -12,7 +12,7 @@
 
 ## Propósito
 
-Formalizate permite que personas con trayectorias formales, informales, mixtas o independientes presenten sus habilidades, experiencias, trabajos, formación y referencias, y que accedan a oportunidades laborales a partir de ellas.
+Formalizate permite que personas con trayectorias formales, informales, mixtas o independientes presenten sus habilidades, experiencias, trabajos, formación y referencias, y que accedan a oportunidades laborales a partir de ellas.\n\nFormalizate no exige que la experiencia provenga de empleos registrados: también reconoce los conocimientos adquiridos mediante trabajos independientes, proyectos personales y experiencias informales.
 
 ## Estado del proyecto
 
@@ -28,7 +28,7 @@ Este repositorio contiene por ahora solo documentación funcional y técnica. **
 | **Contratista** | Ofrece servicios y puede organizar trabajos que requieran incorporar personas. |
 | **Contratante** | Busca trabajadores o contrata servicios para una necesidad. |
 
-Una misma persona puede activar más de un rol desde una única cuenta.
+Una misma persona puede activar más de un rol desde una única cuenta. Puede buscar empleo, ofrecer servicios y contratar a otras personas sin necesidad de crear cuentas diferentes.
 
 ## Alcance de la primera versión
 
@@ -38,7 +38,7 @@ La versión inicial prioriza una experiencia funcional y acotada:
 - Perfiles
 - Habilidades
 - Publicaciones
-- Modalidades de contratación
+- Búsquedas de empleo\n- Contratación de obras y servicios
 
 Las funciones avanzadas se incorporarán por etapas, según la [hoja de ruta](docs/HOJA_DE_RUTA.md).
 
