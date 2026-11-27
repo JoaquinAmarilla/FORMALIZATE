@@ -12,7 +12,9 @@
 
 ## Propósito
 
-Formalizate permite que personas con trayectorias formales, informales, mixtas o independientes presenten sus habilidades, experiencias, trabajos, formación y referencias, y que accedan a oportunidades laborales a partir de ellas.\n\nFormalizate no exige que la experiencia provenga de empleos registrados: también reconoce los conocimientos adquiridos mediante trabajos independientes, proyectos personales y experiencias informales.
+Formalizate permite que personas con trayectorias formales, informales, mixtas o independientes presenten sus habilidades, experiencias, trabajos, formación y referencias, y que accedan a oportunidades laborales a partir de ellas.
+
+Formalizate no exige que la experiencia provenga de empleos registrados: también reconoce los conocimientos adquiridos mediante trabajos independientes, proyectos personales y experiencias informales.
 
 ## Estado del proyecto
 
@@ -38,7 +40,8 @@ La versión inicial prioriza una experiencia funcional y acotada:
 - Perfiles
 - Habilidades
 - Publicaciones
-- Búsquedas de empleo\n- Contratación de obras y servicios
+- Búsquedas de empleo
+- Contratación de obras y servicios
 
 Las funciones avanzadas se incorporarán por etapas, según la [hoja de ruta](docs/HOJA_DE_RUTA.md).
 
