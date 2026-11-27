@@ -1,0 +1,23 @@
+{
+  "name": "Formalizate - Expo",
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:1-22-bookworm",
+  "features": {
+    "ghcr.io/devcontainers/features/git:1": {}
+  },
+  "postCreateCommand": "npm install",
+  "forwardPorts": [8081],
+  "portsAttributes": {
+    "8081": {
+      "label": "Expo Metro",
+      "onAutoForward": "notify"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode"
+      ]
+    }
+  }
+}

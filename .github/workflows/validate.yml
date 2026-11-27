@@ -1,0 +1,35 @@
+name: Validar aplicación
+
+on:
+  pull_request:
+    branches:
+      - main
+  push:
+    branches:
+      - main
+      - chore/mobile-app-foundation
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: Dependencias y TypeScript
+    runs-on: ubuntu-latest
+    steps:
+      - name: Obtener código
+        uses: actions/checkout@v4
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Instalar dependencias
+        run: npm install
+
+      - name: Verificar compatibilidad Expo
+        run: npx expo install --check
+
+      - name: Verificar TypeScript
+        run: npm run typecheck
